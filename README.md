@@ -1,6 +1,9 @@
 # osmdataset2022
 #### Brief description of the dataset
 This is a dataset about online scoial movements in Chinese which crawled from Sina Weibo.
+
+The task of this dataset is to accurately classify sentiments, especially focusing on minority categories, because these two sentiments are particularly important in online social movemnts.
+#### Dataset statistics
 We crawled the comments of four online group events and two normal events in recent five years and divided them into four categories, as listed blow:
 | sentiment | training set |     test set | proportion (%) |label|
 | :----- | :--: | :--: |:---: |:---: |
@@ -13,10 +16,10 @@ We crawled the comments of four online group events and two normal events in rec
 The ratio of class imbalance in this dataset is 10.3 which means that this dataset is an especial imbalanced one.
 
 Here are examples of comments in the dataset.
-| comment | sentiment | 
-| :-----------------------------------------------------------------: | :--: |
-|                                                                     |      |
-|                                                                     |      |
-|                                                                     |      |
-|                                                                     |      |
+| **comment** | **label** | 
+| :----------------------------------------------------------------- | :--: |
+| 孩子出事，学校单方面瞒着第一时间送去殡仪馆？学校有什么权利不让家长进校门见孩子？不让家长了解孩子出事的原因？学校还把监控视频删掉了？还态度蛮横说舆论和法律都不怕？回到古代了？恶霸横行天下？没钱没权人死了连申冤的地方都没有？                                                                    |   3   |
+|时间、地点、人物，事情的起因、经过和结果！这都是老师教我们的！你们公然背叛？真相是啥！欲盖弥彰！滑天下之大稽！实在是可气！可笑！可耻！可恨！                                                      |     2 |
+|                    监控缺失是基本操作，呵呵                                                 |    1  |
+|                   希望学校还原事情真相让事件不要复杂化引起社会舆论压力。                                               |     0 |
 
