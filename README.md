@@ -2,7 +2,7 @@
 #### Brief description of the dataset
 This is a dataset about online scoial movements in Chinese which crawled from Sina Weibo.
 
-The task of this dataset is to accurately classify sentiments, especially focusing on minority categories, because these two sentiments are particularly important in online social movemnts.
+The task of this dataset is to accurately classify sentiments, especially focusing on minority categories, because these two sentiments are particularly important in online social movements.
 #### Dataset statistics
 We crawled the comments of four online group events and two normal events in recent five years and divided them into four categories, as listed blow:
 | sentiment | training set |     test set | proportion (%) |label|
