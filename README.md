@@ -25,3 +25,11 @@ Here are examples of comments in the dataset.
 |                    监控缺失是基本操作，呵呵                                                 |    1  |
 |                   希望学校还原事情真相让事件不要复杂化引起社会舆论压力。                                               |     0 | 
 
+####Citation
+@INPROCEEDINGS{Li2022Bert,
+  author={Li, Hao and Ding, Yulong and Jiang, Jie and Deng, Peng and Yuan, Diping and Yang, Shuang-Hua},
+  booktitle={2022 27th International Conference on Automation and Computing (ICAC)}, 
+  title={BERT-based Sentiment Analysis of Chinese Online Social Movements}, 
+  year={2022},
+  pages={1-6},
+  doi={10.1109/ICAC55051.2022.9911123}}
